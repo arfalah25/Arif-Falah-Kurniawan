@@ -1,0 +1,262 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #FF753C;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px 5%;
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+    color: #faa27c;
+    border-radius: 5px;
+}
+
+.logo
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#home
+{
+    width: 100%;
+    height: 98vh;
+    position: relative;
+}
+
+.home p
+{
+    line-height: 0px;
+    margin: 45px 0px 25px;
+}
+
+.home p:nth-child(1)
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #FF753C;
+    font-size: 30px;
+}
+
+.home p:nth-child(2)
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #FF753C;
+    font-size: 30px;
+}
+
+.home
+{
+    position: absolute;
+    left: 3%;
+    right: 10%;
+    top: 30%;
+    bottom: 30%;
+    transform: translate(13%, 42%);
+}
+
+.picture
+{
+    width: 540px;
+    height: auto;
+    position: absolute;
+    left: 75%;
+    top: 15%;
+    transform: translateX(-49.5%);
+}
+
+.about
+{
+    height: 55vh;
+    background-color: #faa27c;
+    padding: 2% 10% 10%;
+}
+
+.about-desc
+{
+    margin: 50px 50px;
+}
+
+.about-desc p:nth-child(1)
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 65px;
+    line-height: 0px;
+    text-align: left;
+    margin-bottom: 80px;
+    margin-top: 10%;
+}
+
+.about-desc p:nth-child(2)
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.skills-desc
+{
+    margin: 50px 50px;
+}
+
+.skills-desc p:nth-child(1)
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #FF753C;
+    font-size: 65px;
+    line-height: 0px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 10%;
+}
+
+.skills-desc p:nth-child(2)
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FF753C;
+    text-align: center;
+    font-size: 30px;
+}
+
+.gallery
+{
+    margin: 10px;
+    margin-left: 3%;
+    margin-right: 2%;
+    border: 1px solid #faa27c;
+    float: left;
+    width: 200px;
+    height: 300px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.gallery:hover
+{
+    border: 1px solid #faa27c;
+}
+
+.gallery img
+{
+    width: 100%;
+    height: auto;
+}
+
+.image-desc
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+    text-align: center;
+}
+
+a:hover
+{
+    color: #FF753C;
+}
+
+/* footer */
+footer
+{
+    height: 250px;
+    margin-top: 53%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #FF753C;
+}
+
+footer p
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer p:nth-child(1)
+{
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+footer p:nth-child(2)
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 20px;
+}
+
+.social-icons
+{
+    margin: 30px 0px;
+    display: flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.social-icons a
+{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.social-icons i
+{
+    font-size: 35px;
+    color: #FF753C;
+}
+
+.social-icons a:hover
+{
+    background-color: #faa27c;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
